@@ -1,0 +1,12 @@
+{
+  "name": "DerpyMod",
+  "creator": "Derpy_wood",
+  "description": "Derpy MOD",
+  "version": "1.0.0",
+  "entry": "index.js",
+  "requires": [
+    "Amaterasu",
+    "RenderLibV2",
+    "setTimeout"
+  ] 
+}

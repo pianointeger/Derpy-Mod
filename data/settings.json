@@ -1,0 +1,42 @@
+[
+    {
+        "category": "Ping Glide",
+        "settings": [
+            {
+                "type": 4,
+                "name": "TextInput",
+                "value": "4995"
+            },
+            {
+                "type": 6,
+                "name": "PingGlideSwitch",
+                "value": true
+            },
+            {
+                "type": 4,
+                "name": "miningSpeedBoostScalar",
+                "value": "250"
+            },
+            {
+                "type": 1,
+                "name": "ticksInput",
+                "value": 4
+            },
+            {
+                "type": 6,
+                "name": "BlockHighlight",
+                "value": true
+            },
+            {
+                "type": 5,
+                "name": "inputColor",
+                "value": [
+                    0,
+                    52,
+                    209,
+                    53
+                ]
+            }
+        ]
+    }
+]
