@@ -14,7 +14,7 @@ const defaultConf = new DefaultConfig("DerpyMod", "data/settings.json")
         configName: "TextInput",
         title: "Mining Speed",
         description: "Enter your total mining speed here. (Must be a number)",
-        value: "",
+        value: "1000",
         tags: ["Mining speed"],
     })
     .addSwitch({
@@ -29,7 +29,8 @@ const defaultConf = new DefaultConfig("DerpyMod", "data/settings.json")
         configName: "miningSpeedBoostScalar",
         title: "Mining Speed Boost",
         description: "Enter the mining speed boost you get in +_%.",
-        tags: ["Mining speed boost", "boost"]
+        tags: ["Mining speed boost", "boost"],
+        value: "250"
     })
     .addSlider({
         category: "Ping Glide",
@@ -63,7 +64,6 @@ const config = new Settings("DerpyMod", defaultConf, "data/ColorScheme.json", "Â
 config
     .setPos(config.settings.x, config.settings.y)
     .setSize(config.settings.width, config.settings.height)
-    //.setScheme(currentScheme)
     .apply()
 
 export default config.settings
