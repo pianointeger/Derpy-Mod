@@ -16,6 +16,7 @@ const defaultConf = new DefaultConfig("DerpyMod", "data/settings.json")
         description: "Enter your total mining speed here. (Must be a number)",
         value: "1000",
         tags: ["Mining speed"],
+        placeHolder: "1000"
     })
     .addSwitch({
         category: "Ping Glide",
@@ -30,7 +31,8 @@ const defaultConf = new DefaultConfig("DerpyMod", "data/settings.json")
         title: "Mining Speed Boost",
         description: "Enter the mining speed boost you get in +_%.",
         tags: ["Mining speed boost", "boost"],
-        value: "250"
+        value: "250",
+        placeHolder: "250"
     })
     .addSlider({
         category: "Ping Glide",
